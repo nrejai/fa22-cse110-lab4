@@ -6,7 +6,7 @@ function discountedPrices(prices,discount) {
         finalPrice = Math.round(discountedPrice * 100) / 100;
         discounted.push(finalPrice);
     }
-    console.log(i);
+    console.log(finalPrice);
     return discounted;
 }
 
