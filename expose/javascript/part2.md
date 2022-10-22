@@ -11,4 +11,4 @@
 8. The function will return discounted = [ 50, 100, 150 ] as the discounted prices are calculated as half of the original values [ 100, 200, 300 ] and the discounted array has a block scope and the return statement is in the block.
 9. The code causes an error because the variable i has a block scope and is defined in the for loop but the code trying to access i at line 11 is outside the block of the loop, causing an error.
 10. At line 12 the function prints 3 to the console, because the length of the array is defined as length=3 at the beginning of the function and not changed, and the line 12 is in the block.
-11. 
+11. The function will return discounted = [ 50, 100, 150 ] as the discounted prices are calculated as half of the original values [ 100, 200, 300 ] and the values are not changed once they are added, and the discounted array has a block scope and the return statement is in the block.
